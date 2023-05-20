@@ -85,10 +85,6 @@ currently_learning: ["Docker, Kubernetes and Domain Driven Design"]
 
 <h2> 📈 &nbsp;My GitHub History!</h2>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=murtazahr&show_icons=true&theme=tokyonight" />
-</a>
-
 ![Snake animation](https://github.com/murtazahr/murtazahr/blob/output/github-contribution-grid-snake.svg)
   
 <p align="left">
