@@ -82,10 +82,6 @@ currently_learning: ["Docker, Kubernetes and Domain Driven Design"]
 </p>
 
 ---
-
-<h2> 📈 &nbsp;My GitHub History!</h2>
-
-![Snake animation](https://github.com/murtazahr/murtazahr/blob/output/github-contribution-grid-snake.svg)
   
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
