@@ -27,15 +27,14 @@
 
 ```yaml
 name: Murtaza Rangwala
-located_in: Bengaluru, India
-current_job: Full Stack Developer
+located_in: Melbourne, Australia
+current_position: PhD Student - Cloud Computing
+school: University of Melbourne
 education:
   [
     "Microdegree - Consumer and Wealth Management",
     "Bachelors of Software Engineering (Honours)",
   ]
-company: Goldman Sachs
-
 fields_of_interests:
   [
     "Web Development",
