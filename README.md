@@ -28,7 +28,7 @@
 ```yaml
 name: Murtaza Rangwala
 located_in: Melbourne, Australia
-current_position: PhD Student - Cloud Computing
+current_position: PhD Student - CLOUDS Lab
 school: University of Melbourne
 education:
   [
@@ -49,9 +49,6 @@ technical_background:
     "Intern - Full-stack and quant dev",
     "Intern - Software Architecture and Orchestration",
   ]
-  
-currently_learning: ["Docker, Kubernetes and Domain Driven Design"]
-2023 Goals: ["Create an Open-Source Derivatives Pricing API"]
 ```
   
 ---  
