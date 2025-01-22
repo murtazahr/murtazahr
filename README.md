@@ -28,26 +28,25 @@
 ```yaml
 name: Murtaza Rangwala
 located_in: Melbourne, Australia
-current_position: PhD Student - CLOUDS Lab
+current_position: Graduate Researcher @ CLOUDS Lab
 school: University of Melbourne
 education:
   [
-    "Microdegree - Consumer and Wealth Management",
-    "Bachelors of Software Engineering (Honours)",
+    "DPhil - Engineering & IT @ University of Melbourne,
+    "Bachelors of Software Engineering (Honours) @ Monash University",
   ]
 fields_of_interests:
   [
-    "Web Development",
-    "Full Stack Development",
-    "Software Architecture",
-    "Quant Engineering",
+    "Machine Learning",
+    "Distributed Computing",
+    "Blockchain Technologies",
+    "Financial Engineering",
   ]
 technical_background:
   [
-    "Engineering Analyst",
-    "Undergraduate Researcher - Energy Trading Blockchain",
-    "Intern - Full-stack and quant dev",
-    "Intern - Software Architecture and Orchestration",
+    "Software Engineering Analyst @ Goldman Sachs",
+    "Summer Analyst - Full-stack and quant dev @ Goldman Sachs",
+    "Software Architect Intern @ Photobook Worldwide",
   ]
 ```
   
@@ -68,7 +67,6 @@ technical_background:
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="45" height="45" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="45" height="45" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" alt="Laravel" width="45" height="45"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="45" height="45"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="45" height="45"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="45" height="45"/>
