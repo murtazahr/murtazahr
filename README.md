@@ -28,19 +28,19 @@
 ```yaml
 name: Murtaza Rangwala
 located_in: Melbourne, Australia
-current_position: Graduate Researcher @ CLOUDS Lab
+current_position: Graduate Researcher @ qCLOUDS Lab
 school: University of Melbourne
 education:
   [
-    "DPhil - Engineering & IT @ University of Melbourne,
+    "PhD - Engineering & IT @ University of Melbourne,
     "Bachelors of Software Engineering (Honours) @ Monash University",
   ]
 fields_of_interests:
   [
-    "Machine Learning",
-    "Distributed Computing",
+    "Federated Learning",
+    "Trustworthy ML",
+    "Privacy Preserving ML",
     "Blockchain Technologies",
-    "Financial Engineering",
   ]
 technical_background:
   [
