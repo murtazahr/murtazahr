@@ -6,7 +6,7 @@ PhD researcher at the University of Melbourne, working where **distributed syste
 
 ---
 
-#### 🧬 My contribution graph, playing Conway's Game of Life
+#### Conway's Game of Life, seeded by my commits
 
 <!-- LIFE:START -->
 <div align="center">
