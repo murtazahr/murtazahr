@@ -1,16 +1,19 @@
-name: Daily battle
+name: Game of Life
 
 on:
   schedule:
     - cron: "17 0 * * *" # daily, 00:17 UTC
+  push:
+    branches: [main]
+    paths: ["life/**", ".github/workflows/life.yml"]
   workflow_dispatch:
 
 concurrency:
-  group: quorum
+  group: life
   cancel-in-progress: true
 
 jobs:
-  battle:
+  life:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -22,13 +25,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Simulate today's battle
-        run: python -m quorum
+      - name: Play today's game
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python -m life
 
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/quorum.svg
-          git diff --staged --quiet || git commit -m "⚔️ $(date -u +%Y-%m-%d)"
+          git add README.md assets/life.svg
+          git diff --staged --quiet || git commit -m "🧬 $(date -u +%Y-%m-%d)"
           git push
