@@ -31,7 +31,7 @@ Every day, a GitHub Action takes my contribution graph from the past year and tu
 - a dead cell with exactly 3 live neighbours comes alive,
 - everything else dies.
 
-The grid wraps around at the edges. The run stops when my commits die out, freeze, repeat themselves, or reach 150 generations. The caption says which happened. Commit more, and tomorrow's game changes.
+The grid wraps around at the edges. The colony either goes extinct, settles at a stable population, falls into a repeating cycle, or is still evolving after 150 generations. The caption says which happened. Commit more, and tomorrow's colony changes.
 
 [See the code →](./life)
 
