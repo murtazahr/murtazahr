@@ -40,13 +40,18 @@ def _plural(n, word):
 
 def caption(run):
     g = run.ended_at
+    sizes = [len(live) for live in run.generations]
     if run.outcome == "extinct":
-        return f"💀 My commits went extinct after {_plural(g, 'generation')}."
+        return f"💀 The colony went extinct after {_plural(g, 'generation')}, having peaked at {_plural(max(sizes), 'cell')}."
     if run.outcome == "still":
-        return f"🪨 My commits froze into a still life after {_plural(g, 'generation')}."
+        return f"🪨 The colony reached a stable population of {_plural(sizes[g], 'cell')} after {_plural(g, 'generation')}."
     if run.outcome == "loop":
-        return f"🔁 My commits got stuck in a {run.period}-step loop at generation {g}."
-    return f"🌱 My commits were still going after {MAX_GENERATIONS} generations."
+        low, high = min(sizes[g:g + run.period]), max(sizes[g:g + run.period])
+        if low == high:
+            forms = "alternates between 2 forms" if run.period == 2 else f"cycles through {run.period} forms"
+            return f"🔁 From generation {g}, the colony {forms} with a steady population of {_plural(low, 'cell')}."
+        return f"🔁 From generation {g}, the colony's population oscillates between {low} and {high} cells."
+    return f"🌱 Still evolving after {MAX_GENERATIONS} generations, with {_plural(sizes[-1], 'cell')} alive (peak: {max(sizes)})."
 
 
 def main():
@@ -75,7 +80,7 @@ def main():
 
 **{caption(run)}**
 
-<sub>{_plural(len(levels), 'active day')} in the last year became the starting cells · updated {today:%d %b %Y}</sub>
+<sub>Founded by {len(levels)} cells, one for each day I contributed in the last year · updated {today:%d %b %Y}</sub>
 
 </div>"""
     text = README.read_text()

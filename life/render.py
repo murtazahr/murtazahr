@@ -65,13 +65,13 @@ def render(run, levels, first_day):
                 for lv in (1, 2, 3, 4)
                 if lv in levels.values()
             )
-            label = "your year of commits"
+            label = f"my year of commits · population {len(live)}"
         else:
             born = live - run.generations[g - 1]
             paths = (
                 f'<path class="l4" d="{_squares(live - born)}"/>' if live - born else ""
             ) + (f'<path class="l2" d="{_squares(born)}"/>' if born else "")
-            label = f"generation {g}"
+            label = f"generation {g} · population {len(live)}"
         body.append(
             f'<g class="f f{g}">{paths}'
             f'<text x="{width - 6}" y="{height - 6}" text-anchor="end">{label}</text></g>'
