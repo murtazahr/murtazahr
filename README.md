@@ -1,8 +1,8 @@
 ### Hey 👋 I'm Murtaza
 
-PhD researcher at the University of Melbourne, working where **distributed systems** meet **machine learning**. Previously a software engineer at Goldman Sachs.
+PhD researcher at the University of Melbourne, working at the intersection of **distributed systems** and **machine learning**. Previously a software engineer at Goldman Sachs.
 
-[Website](https://murtaza-hatim.com/) · [Google Scholar](https://scholar.google.com.au/citations?user=4CNDsBYAAAAJ) · [LinkedIn](https://www.linkedin.com/in/murtazahrangwala/) · [X](https://x.com/Murtaza_talks) · [Medium](https://medium.com/@murtazahatimr/)
+[Website](https://murtaza-hatim.com/) · [Google Scholar](https://scholar.google.com.au/citations?user=4CNDsBYAAAAJ) · [LinkedIn](https://www.linkedin.com/in/murtazahrangwala/) · [X](https://x.com/Murtaza_talks)
 
 ---
 
