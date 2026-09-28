@@ -1,57 +1,74 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hello!&height=100&section=header"/>
-</p>
+### Hey 👋 I'm Murtaza
 
-<h1 align="center">
-  Let's Connect and have a Chat!💬
-</h1>
+PhD researcher at the University of Melbourne, working where **distributed systems** meet **machine learning**. Previously a software engineer at Goldman Sachs.
 
-<p align="center">
-<a href="https://murtaza-hatim.com/">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166972883-f5f1d88c-0246-4374-88ac-ded0f2cf0699.png"/>
-</a>
-<a href="https://www.linkedin.com/in/murtazahrangwala/">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166973395-19676cd8-f8ec-4abf-83ff-da8243505b82.png"/>
-</a>
-<a href="https://twitter.com/Murtaza_talks">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166974271-91dfa250-d70b-4cb9-8707-f1bda1b708c3.png"/>
-</a>
-<a href="https://www.instagram.com/murtzz.x/">
-  <img height="50" src="https://user-images.githubusercontent.com/46517096/166974368-9798f39f-1f46-499c-b14e-81f0a3f83a06.png"/>
-</a>
-</p>
+[Website](https://murtaza-hatim.com/) · [Google Scholar](https://scholar.google.com.au/citations?user=4CNDsBYAAAAJ) · [LinkedIn](https://www.linkedin.com/in/murtazahrangwala/) · [X](https://x.com/Murtaza_talks) · [Medium](https://medium.com/@murtazahatimr/)
 
 ---
 
-<h2> 👨🏻‍💻 &nbsp;About Me</h2>
+#### ⚔️ Today's battle
 
-```yaml
-name: Murtaza Rangwala
-located_in: Melbourne, Australia
-current_position: Graduate Researcher @ qCLOUDS Lab
-school: University of Melbourne
-education:
-  [
-    "PhD - Engineering & IT @ University of Melbourne,
-    "Bachelors of Software Engineering (Honours) @ Monash University",
-  ]
-fields_of_interests:
-  [
-    "Federated Learning",
-    "Trustworthy ML",
-    "Privacy Preserving ML",
-    "Blockchain Technologies",
-  ]
-technical_background:
-  [
-    "Software Engineering Analyst @ Goldman Sachs",
-    "Summer Analyst - Full-stack and quant dev @ Goldman Sachs",
-    "Software Architect Intern @ Photobook Worldwide",
-  ]
+Every day a fresh army of generals tries to agree on a plan while a few traitors hide among them.
+
+<!-- QUORUM:START -->
+<div align="center">
+
+<img src="assets/quorum.svg?v=20260928" alt="Today's Byzantine generals simulation" width="720">
+
+### The army split — no single plan
+
+24 loyal generals · 4 hidden traitors · tactic: **noise** — sends a fresh random value to each target, every round
+
+Traitors unmasked **3/4** by round 49 · loyal links cut by mistake **10** · final disagreement **0.279** · distance from the honest average **0.040**
+
+<sub>simulated 2026-09-28 · seeded by the date, so every day is a new battlefield</sub>
+
+</div>
+<!-- QUORUM:END -->
+
+---
+
+<details>
+<summary>What is this?</summary>
+
+<br>
+
+```mermaid
+flowchart LR
+    date["📅 today's date"] -->|seed| map["random map of 28 generals"]
+    map --> gossip["50 rounds of gossip"]
+    traitors["🗡️ hidden traitors<br/>poison · noise · drift"] -->|lies| gossip
+    gossip -->|screen & cut| outcome["today's battle"]
 ```
 
----
-  
-<p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
-</p>
+It's a toy version of the [Byzantine Generals Problem](https://en.wikipedia.org/wiki/Byzantine_fault): how do parties that can only message their neighbours agree on something when some of them lie?
+
+- **The map.** 28 generals are scattered at random and can only talk to generals within range. Each loyal general starts with its own plan (a number, drawn as a colour).
+- **Gossip.** Every round, each loyal general averages its plan with the messages it trusts. With no traitors, everyone would end up on the same colour.
+- **Traitors.** 3–6 generals are secretly Byzantine. They use one tactic per day: *poison* (a fixed extreme value), *noise* (random values), or *drift* (a believable value with a small bias). Traitors always make up less than a third of any loyal general's neighbourhood, echoing the classic *n > 3f* bound.
+- **Defence.** Each general ignores messages that stray too far from its neighbourhood's median. After an 8-round grace period, a neighbour flagged 5 rounds in a row is cut for good. Once all its loyal neighbours have cut it, a traitor is unmasked.
+
+The defence is deliberately simple, and it isn't perfect. Some days a drifting traitor slips through, or a loyal general gets cut by mistake. The stats under the animation report what actually happened. A GitHub Action reruns it daily, seeded by the date.
+
+[See the code →](./quorum)
+
+</details>
+
+<details>
+<summary>More about me</summary>
+
+<br>
+
+```yaml
+based_in: Melbourne, Australia
+now: PhD, Engineering & IT @ University of Melbourne
+before:
+  - Software Engineering Analyst @ Goldman Sachs
+  - Summer Analyst, full-stack & quant dev @ Goldman Sachs
+  - Software Architect Intern @ Photobook Worldwide
+studied: Bachelor of Software Engineering (Honours) @ Monash University
+```
+
+Research and publications live on [my website](https://murtaza-hatim.com/) and [Google Scholar](https://scholar.google.com.au/citations?user=4CNDsBYAAAAJ).
+
+</details>
