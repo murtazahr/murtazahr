@@ -11,7 +11,11 @@ PhD researcher at the University of Melbourne, working where **distributed syste
 <!-- LIFE:START -->
 <div align="center">
 
-<sub>The first generation appears after the next daily run.</sub>
+<img src="assets/life.svg?v=20260928" alt="My contribution graph playing Conway's Game of Life">
+
+**🔁 My commits got stuck in a 2-step loop at generation 53.**
+
+<sub>119 active days in the last year became the starting cells · updated 28 Sep 2026</sub>
 
 </div>
 <!-- LIFE:END -->
