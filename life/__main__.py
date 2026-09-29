@@ -49,8 +49,8 @@ def caption(run):
         low, high = min(sizes[g:g + run.period]), max(sizes[g:g + run.period])
         if low == high:
             forms = "alternates between 2 forms" if run.period == 2 else f"cycles through {run.period} forms"
-            return f"🔁 From generation {g}, the colony {forms} with a steady population of {_plural(low, 'cell')}."
-        return f"🔁 From generation {g}, the colony's population oscillates between {low} and {high} cells."
+            return f"From generation {g}, the colony {forms} with a steady population of {_plural(low, 'cell')}."
+        return f"From generation {g}, the colony's population oscillates between {low} and {high} cells."
     return f"🌱 Still evolving after {MAX_GENERATIONS} generations, with {_plural(sizes[-1], 'cell')} alive (peak: {max(sizes)})."
 
 
