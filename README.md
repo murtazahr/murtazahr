@@ -11,11 +11,11 @@ PhD researcher at the University of Melbourne, working at the intersection of **
 <!-- LIFE:START -->
 <div align="center">
 
-<img src="assets/life.svg?v=20261001" alt="My contribution graph playing Conway's Game of Life">
+<img src="assets/life.svg?v=20261002" alt="My contribution graph playing Conway's Game of Life">
 
 **🌱 Still evolving after 150 generations, with 29 cells alive (peak: 123).**
 
-<sub>Founded by 123 cells, one for each day I contributed in the last year · updated 01 Oct 2026</sub>
+<sub>Founded by 123 cells, one for each day I contributed in the last year · updated 02 Oct 2026</sub>
 
 </div>
 <!-- LIFE:END -->
