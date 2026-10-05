@@ -11,11 +11,11 @@ PhD researcher at the University of Melbourne, working at the intersection of **
 <!-- LIFE:START -->
 <div align="center">
 
-<img src="assets/life.svg?v=20261004" alt="My contribution graph playing Conway's Game of Life">
+<img src="assets/life.svg?v=20261005" alt="My contribution graph playing Conway's Game of Life">
 
-**🌱 Still evolving after 150 generations, with 69 cells alive (peak: 122).**
+**From generation 53, the colony alternates between 2 forms with a steady population of 8 cells.**
 
-<sub>Founded by 122 cells, one for each day I contributed in the last year · updated 04 Oct 2026</sub>
+<sub>Founded by 123 cells, one for each day I contributed in the last year · updated 05 Oct 2026</sub>
 
 </div>
 <!-- LIFE:END -->
