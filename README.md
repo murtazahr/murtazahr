@@ -11,11 +11,11 @@ PhD researcher at the University of Melbourne, working at the intersection of **
 <!-- LIFE:START -->
 <div align="center">
 
-<img src="assets/life.svg?v=20261007" alt="My contribution graph playing Conway's Game of Life">
+<img src="assets/life.svg?v=20261008" alt="My contribution graph playing Conway's Game of Life">
 
 **💀 The colony went extinct after 67 generations, having peaked at 125 cells.**
 
-<sub>Founded by 125 cells, one for each day I contributed in the last year · updated 07 Oct 2026</sub>
+<sub>Founded by 125 cells, one for each day I contributed in the last year · updated 08 Oct 2026</sub>
 
 </div>
 <!-- LIFE:END -->
