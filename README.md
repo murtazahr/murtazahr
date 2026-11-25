@@ -11,11 +11,11 @@ PhD researcher at the University of Melbourne, working at the intersection of **
 <!-- LIFE:START -->
 <div align="center">
 
-<img src="assets/life.svg?v=20261124" alt="My contribution graph playing Conway's Game of Life">
+<img src="assets/life.svg?v=20261125" alt="My contribution graph playing Conway's Game of Life">
 
-**From generation 53, the colony alternates between 2 forms with a steady population of 10 cells.**
+**From generation 86, the colony alternates between 2 forms with a steady population of 10 cells.**
 
-<sub>Founded by 130 cells, one for each day I contributed in the last year · updated 24 Nov 2026</sub>
+<sub>Founded by 131 cells, one for each day I contributed in the last year · updated 25 Nov 2026</sub>
 
 </div>
 <!-- LIFE:END -->
